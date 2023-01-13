@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Family tree</title>
+</head>
+
+<body>
+
+    <header class="header block pt-5 mb-0" style="max-height: 82px;">
+        <nav class="navbar container py-4" role="navigation" aria-label="main navigation">
+            <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+            <ul class="header__list navbar-menu" id="nav-links" style="justify-content: center;">
+                <li class="header__item navbar-item  px-5">
+                    <a href="#" class="header__link is-size-5 has-text-primary">
+                        Developments
+                    </a>
+                </li>
+                <li class="header__item navbar-item  px-5">
+                    <a href="#" class="active header__link is-size-5 has-text-primary">
+                        Calendar
+                    </a>
+                </li>
+                <li class="header__item navbar-item  px-5">
+                    <a href="#" class="header__link is-size-5 has-text-primary">
+                        Daily Affairs </a>
+                </li>
+                <li class="header__item header__item-dropdown navbar-item has-dropdown is-hoverable pt-2 px-5">
+                    <a href="#" class="header__link is-size-5 has-text-primary">
+                        Other
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="./gallery.html">
+                            Gallery
+                        </a>
+                        <a class="navbar-item" href="./family-tree.html">
+                            Family Tree
+                        </a>
+                        <a class="navbar-item" href="./people.html">
+                            People
+                        </a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="./timeline.html">
+                            Time Line
+                        </a>
+                    </div>
+                </li>
+                <li class="header__item header__item-dropdown has-dropdown is-hoverable navbar-item pt-2 px-5">
+                    <a href="#" class="header__link is-size-5 has-text-primary">
+                        Accounting
+                    </a>
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="#">
+                            Example pages
+                        </a>
+                        <a class="navbar-item" href="#">
+                            Example pages
+                        </a>
+                        <a class="navbar-item" href="#">
+                            Example pages
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header__bottom block mb-0">
+        <article class="columns is-vcentered is-variable is-1">
+
+            <div class="column">
+                <button class="days__btn button is-danger ml-auto" type="button" style=" display: block;">
+                    Today
+                </button>
+            </div>
+
+            <div class="columns is-mobile column is-vcentered m-0">
+                <div class="column is-2-desktop is-1-tablet calendar__prev has-background-dark has-text-centered pt-2"
+                    style="padding: 0;">
+                    <img src="./images/icons/prev-btn-date.png" alt="">
+                </div>
+
+                <div class="calendar__box column px-1" style="max-width: 174px;">
+                    <input class="calendar input" type="input" value="11.11.2022">
+                </div>
+
+                <div class="column is-2-desktop is-1-tablet calendar__next has-background-dark has-text-centered pt-2"
+                    style="padding: 0;">
+                    <img src="./images/icons/netx-btn-date.png" alt="">
+                </div>
+            </div>
+
+            <div class="column is-half mx-1">
+                <input class="input search" type="search" placeholder="Search Events" style="width: 98%;">
+            </div>
+
+            <div class="column">
+                <button class="button search__btn" type="submit">
+                </button>
+            </div>
+
+        </article>
+    </div>
+
+
+    <section class="cont section" style="min-height: 78vh;">
+        <div class="columns mx-6 px-6 is-centered">
+            <div class="container__wrapp column is-2 is-narrow">
+                <div class="container__item-title pb-3">
+                    <div class="card-title is-size-4 has-text-centered"> Mon </div>
+                </div>
+                <div class="container__item cards__item active box">
+
+                    <div class="container__card">
+                        <div class="container__card-title  pb-4 pl-2">
+                            <span class="is-variable is-3 has-text-white" style="font-size: 18px;">
+                                December 5</span>
+                        </div>
+
+                        <div class="inner-cards">
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    09:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Figure skating
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids1.png" alt="photo">
+                                    <img src="./images/items/family-member-kids2.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    09:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Figure skating
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-3.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    09:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Figure skating
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids1.png" alt="photo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__wrapp column is-2 is-narrow">
+                <div class="container__item-title pb-3">
+                    <div class="card-title is-size-4 has-text-centered"> Tue </div>
+                </div>
+                <div class="container__item cards__item box">
+
+                    <div class="container__card">
+                        <div class="container__card-title pb-4 pl-2">
+                            <span class="is-variable is-3 has-text-dark" style="font-size: 18px;">
+                                December 6</span>
+                        </div>
+
+                        <div class="inner-cards">
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    09:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Figure skating
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids1.png" alt="photo">
+                                    <img src="./images/items/family-member-kids2.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    09:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Figure skating
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids2.png" alt="photo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__wrapp column is-2 is-narrow">
+                <div class="container__item-title pb-3">
+                    <div class="card-title is-size-4 has-text-centered"> Wed </div>
+                </div>
+                <div class="container__item cards__item box">
+
+                    <div class="container__card">
+                        <div class="container__card-title pb-4 pl-2">
+                            <span class="is-variable is-3 has-text-dark" style="font-size: 18px;">
+                                December 7</span>
+                        </div>
+
+                        <div class="inner-cards">
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    09:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Basketball
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids1.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    10:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Programming
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-3.png" alt="photo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__wrapp column is-2 is-narrow">
+                <div class="container__item-title pb-3">
+                    <div class="card-title is-size-4 has-text-centered"> Thu </div>
+                </div>
+                <div class="container__item cards__item box">
+
+                    <div class="container__card">
+                        <div class="container__card-title pb-4 pl-2">
+                            <span class="is-variable is-3 has-text-dark" style="font-size: 18px;">
+                                December 7</span>
+                        </div>
+
+                        <div class="inner-cards">
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    09:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Figure skating
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids1.png" alt="photo">
+                                    <img src="./images/items/family-member-kids2.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    10:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Drawing
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids1.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    3:00 PM
+                                </span>
+                                <div class="inner-card__title">
+                                    Tennis
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids2.png" alt="photo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__wrapp column is-2 is-narrow">
+                <div class="container__item-title pb-3">
+                    <div class="card-title is-size-4 has-text-centered"> Fri </div>
+                </div>
+                <div class="container__item cards__item box">
+
+                    <div class="container__card">
+                        <div class="container__card-title pb-4 pl-2">
+                            <span class="is-variable is-3 has-text-dark" style="font-size: 18px;">
+                                December 9</span>
+                        </div>
+
+                        <div class="inner-cards">
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    09:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Figure skating
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-kids1.png" alt="photo">
+                                    <img src="./images/items/family-member-kids2.png" alt="photo">
+                                </div>
+                            </div>
+                            <div class="inner-card box">
+                                <span class="inner-card__subtitle">
+                                    11:00 AM
+                                </span>
+                                <div class="inner-card__title">
+                                    Tennis
+                                </div>
+                                <div class="inner-card__images">
+                                    <img src="./images/items/family-member-3.png" alt="photo">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

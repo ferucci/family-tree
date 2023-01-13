@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Family tree</title>
+</head>
+
+<body>
+
+  <header class="header block pt-5 mb-0" style="max-height: 82px;">
+    <nav class="navbar container py-4" role="navigation" aria-label="main navigation">
+      <a role="button" class="navbar-burger" id="burger" aria-label="menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <ul class="header__list navbar-menu" id="nav-links" style="justify-content: center;">
+        <li class="header__item navbar-item  px-5">
+          <a href="#" class="header__link is-size-5 has-text-primary">
+            Developments
+          </a>
+        </li>
+        <li class="header__item navbar-item  px-5">
+          <a href="#" class="header__link is-size-5 has-text-primary">
+            Calendar
+          </a>
+        </li>
+        <li class="header__item navbar-item  px-5">
+          <a href="#" class="header__link is-size-5 has-text-primary">
+            Daily Affairs </a>
+        </li>
+        <li class="header__item header__item-dropdown navbar-item has-dropdown is-hoverable pt-2 px-5">
+          <a href="#" class="header__link is-size-5 has-text-primary">
+            Other
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="./gallery.html">
+              Gallery
+            </a>
+            <a class="navbar-item" href="./family-tree.html">
+              Family Tree
+            </a>
+            <a class="navbar-item" href="./people.html">
+              People
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="./timeline.html">
+              Time Line
+            </a>
+          </div>
+        </li>
+        <li class="header__item header__item-dropdown has-dropdown is-hoverable navbar-item pt-2 px-5">
+          <a href="#" class="header__link is-size-5 has-text-primary">
+            Accounting
+          </a>
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="#">
+              Elements
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="#">
+              Modifiers
+            </a>
+            <a class="navbar-item" href="#">
+              Layout
+            </a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="section pt-3 pb-0">
+    <div class="section-top">
+
+      <div class="section-title is-flex is-justify-content-center mb-4">
+        <img src="./images/title-att-l.png" alt="att image">
+        <h1 class="is-size-3 px-4 has-text-light">People on the Family Tree</h1>
+        <img src="./images/title-att-r.png" alt="att image">
+      </div>
+    </div>
+  </section>
+
+  <section class="cont hero" style="min-height: 74vh;">
+    <div class=" hero-body pt-0">
+      <div class="section-nav columns is-centered">
+        <article class="level is-variable is-1">
+
+          <div class="column is-flex is-align-items-center">
+            <img class="image is-78x78 pr-4" src="./images/people/worker.png" alt="man photo">
+            <h3 class="has-text-grey has-text-weight-semibold is-size-5">Golovin Iosif Mikhailovich</h3>
+          </div>
+
+          <div class="level-item is-narrow ml-5">
+            <button class="pl-4 button is-danger has-background-danger">Scheme</button>
+          </div>
+
+          <div class="level-item is-narrow mx-3">
+            <button class="save-button button is-light pl-5" type="button">
+              Save changes
+            </button>
+          </div>
+
+          <div class="level-item is-narrow">
+            <button class="back-button button is-light pl-4" type="button">
+              Back to list
+            </button>
+          </div>
+
+        </article>
+      </div>
+      <div class="tabs is-boxed container mb-0 is-flex is-justify-content-space-around" style="max-width: 1050px;">
+        <ul class="ml-6">
+
+          <li class="has-background-grey-light tabs-item">
+            <a>
+              <span class="has-text-weight-semibold">General Information</span>
+            </a>
+          </li>
+          <li class="is-active has-background-grey-light tabs-item ml-1">
+            <a>
+              <span class="has-text-weight-semibold">Mariage Registry</span>
+            </a>
+          </li>
+          <li class="has-background-grey-light tabs-item ml-1">
+            <a>
+              <span class="has-text-weight-semibold">Photos</span>
+            </a>
+          </li>
+          <li class="has-background-grey-light tabs-item ml-1">
+            <a>
+              <span class="has-text-weight-semibold">Files</span>
+            </a>
+          </li>
+
+        </ul>
+        <div class="upload-file mr-5">
+          <div class="file">
+            <label class="file-label">
+              <input class="file-input" type="file" name="resume">
+              <span class="file-cta" style="background-color: transparent; border-color: #d0c0a2; max-height: 30px;">
+
+                <span class="file-label">
+                  Add a note
+                </span>
+                <span class="file-icon">
+                  <img src="./images/icons/upload-file.png" alt="upload files">
+                </span>
+              </span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="container box py-6 px-6" style="background-color: transparent; max-width: fit-content;">
+        <div class="box columns is-flex is-align-items-center px-3 py-2 mb-5"
+          style="box-shadow: none; border: 1px solid #4a3719;">
+          <div class="block mb-0 column is-2 mr-6 is-flex is-align-items-center">
+            <span class="date" style="min-width: 116px;">06/15/1945 12:00 <br> #20</span>
+            <img class="image pl-5" src="./images/icons/mirrage.png" alt="image" style="max-height: 46px;">
+          </div>
+
+          <div class="block mb-0 column">
+            <h4 class="is-size-5 title">Marriage</h4>
+            <p class="is-size-6 subtitle">
+              Golovin Iosif Mikhailovich ( M , 04/19/1914) and Yutkina Lidia Dmitrievna ( F , 05/04/1921 12:00)
+            </p>
+          </div>
+          <div class="buttons column is-flex is-justify-content-end is-narrow">
+            <button class="button has-background-grey-dark px-2 py-4" style="max-width: 38px;">
+              <img src=" ./images/icons/edit.png" alt="edit icon">
+            </button>
+            <button class="button has-background-danger px-2 py-4" style="max-width: 38px;">
+              <img src=" ./images/icons/delete.png" alt="delete icon">
+            </button>
+          </div>
+        </div>
+
+        <div class="box columns is-flex is-align-items-center px-3 py-2 mb-5"
+          style="box-shadow: none; border: 1px solid #4a3719;">
+          <div class="block mb-0 column is-2 mr-6 is-flex is-align-items-center">
+            <span class="date" style="min-width: 116px;">01/16/1950 <br> #37</span>
+            <img class="image pl-5" src="./images/icons/small-att-r.png" alt="image" style="max-height: 46px;">
+          </div>
+
+          <div class="block mb-0 column">
+            <h4 class="is-size-5 title">Birth of a</h4>
+            <p class="is-size-6 subtitle">
+              child Yutkina Lyudmila Anatolyevna ( F , 01/16/1950)
+              Parent 1: Golovin Iosif Mikhailovich ( M , 04/19/1914) Parent 2: Yutkina Lidia Dmitrievna
+            </p>
+          </div>
+          <div class="buttons column is-flex is-justify-content-end is-narrow">
+            <button class="button has-background-grey-dark px-2 py-4" style="max-width: 38px;">
+              <img src=" ./images/icons/edit.png" alt="edit icon">
+            </button>
+            <button class="button has-background-danger px-2 py-4" style="max-width: 38px;">
+              <img src=" ./images/icons/delete.png" alt="delete icon">
+            </button>
+          </div>
+        </div>
+
+        <div class="box columns is-flex is-align-items-center px-3 py-2 mb-5"
+          style="box-shadow: none; border: 1px solid #4a3719;">
+          <div class="block mb-0 column is-2 mr-6 is-flex is-align-items-center">
+            <span class="date" style="min-width: 116px;">06/15/1955 12:00 <br> #2</span>
+            <img class="image pl-5" src="./images/icons/hat.png" alt="image" style="max-height: 46px;">
+          </div>
+
+          <div class="block mb-0 column">
+            <h4 class="is-size-5 title">Adoption</h4>
+            <p class="is-size-6 subtitle">
+              Parent 1: Golovin Iosif Mikhailovich ( M , 04/19/1914) Parent 2: Yutkina Lidia Dmitrievna
+            </p>
+          </div>
+          <div class="buttons column is-flex is-justify-content-end is-narrow">
+            <button class="button has-background-grey-dark px-2 py-4" style="max-width: 38px;">
+              <img src=" ./images/icons/edit.png" alt="edit icon">
+            </button>
+            <button class="button has-background-danger px-2 py-4" style="max-width: 38px;">
+              <img src=" ./images/icons/delete.png" alt="delete icon">
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
