@@ -74,37 +74,40 @@
       </ul>
     </nav>
   </header>
-  <div class="container header__bottom block mt-2">
-    <article class="level is-vcentered is-variable is-1">
+  <div class="container header__bottom family-tree mb-4 mt-2">
+    <article class="level is-vcentered is-variable is-1" style="width: 100%;">
+      <div class="column">
+        <div class="is-flex is-justify-content-end">
+          <div class="level-item is-narrow">
+            <button class="days__btn button is-danger has-background-danger" type="button">
+              Edit
+            </button>
+          </div>
 
-      <div class="level-item is-narrow" style="width: 85px;">
-        <button class="days__btn button is-danger has-background-danger" type="button" style="min-width: 85px;">
-          Edit
-        </button>
+          <div class="level-item px-2 is-narrow">
+            <button class="days__btn button is-light" type="button">
+              Add
+            </button>
+          </div>
+
+          <div class="level-item is-narrow">
+            <button class="days__btn button is-light" type="button">
+              Delete
+            </button>
+          </div>
+        </div>
       </div>
 
-      <div class="level-item px-2 is-narrow">
-        <button class="days__btn button is-light" type="button" style="min-width: 85px;">
-          Add
-        </button>
-      </div>
-
-      <div class="level-item is-narrow" style="width: 85px;">
-        <button class="days__btn button is-light" type="button" style="min-width: 85px;">
-          Delete
-        </button>
-      </div>
-
-      <div class="column ml-3">
-        <input class="input search pl-4" type="search" placeholder="Search" style="max-width: 84%;">
+      <div class="column mx-3 is-full-mobile">
+        <input class="input search pl-4" type="search" placeholder="Search">
       </div>
 
     </article>
   </div>
 
   <section class="cont tree section pt-0" style="min-height: 78vh;">
-    <div class="container is-centered">
-      <div class=" columns container mb-0">
+    <div class="container tree__content is-centered">
+      <div class="columns tree__grandparents container mb-0">
         <div class="column">
           <div class="columns is-centered is-variable is-8">
             <div class="column is-one-quarter is-flex-direction-column has-text-centered">
@@ -124,8 +127,8 @@
           </div>
         </div>
       </div>
-      <div class="columns container is-centered mt-1 mb-0">
-        <div class="column" style="max-width: 1080px;">
+      <div class="columns tree__husbands container is-centered mt-1 mb-0">
+        <div class="column">
           <div class="columns">
             <div class="line-family-right column mt-5 is-flex-direction-column has-text-centered">
               <div class="item__box">
@@ -141,10 +144,9 @@
                 <p class="subtitle is-size-7">Born: Sept 17, 1977</p>
               </div>
             </div>
-            <div class="column is-one-quarter pb-2 has-text-centered">
+            <div class="column is-one-quarter pb-2 has-text-centered tree__content-husb">
               <div class="item__box">
-                <img class="mb-4" src="./images/people/nikita.png" alt="family tree"
-                  style="transform: scale(1.2); margin-top: -22px;">
+                <img class="mb-4" src="./images/people/nikita.png" alt="family tree">
 
                 <nav class="level mb-0 is-justify-content-center">
                   <div class="level-left mb-2">
@@ -187,8 +189,8 @@
           </div>
         </div>
       </div>
-      <div class="columns container is-centered mt-1 mb-6">
-        <div class="column" style="max-width: 1080px;">
+      <div class="columns tree__wife container is-centered mt-1 mb-6">
+        <div class="column">
           <div class="columns">
             <div class="btn-view column mt-5 is-flex-direction-column has-text-centered">
               <div class="item__box">
@@ -209,7 +211,7 @@
               </div>
             </div>
             <div
-              class="btn-view line-family-bottom is-flex is-justify-content-center column is-one-quarter pb-5 has-text-centered">
+              class="btn-view tree__content-wife is-flex is-justify-content-center column is-one-quarter pb-5 has-text-centered">
               <div class="item__box">
 
                 <img class="" src=" ./images/people/wife-nikita.png" alt="family tree" style="margin-top: -22px;">
@@ -239,7 +241,7 @@
           </div>
         </div>
       </div>
-      <div class="columns container is-centered">
+      <div class="columns tree__kids container is-centered">
         <div class="column" style="max-width: 735px;">
           <div class="line-family-kids columns is-centered pt-6">
             <div class="column is-one-quarter is-flex-direction-column has-text-centered">
